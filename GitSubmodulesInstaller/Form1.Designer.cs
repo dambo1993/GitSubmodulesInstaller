@@ -30,6 +30,7 @@
         {
             this.b_load_file = new System.Windows.Forms.Button();
             this.gb_submodules = new System.Windows.Forms.GroupBox();
+            this.tv_XML = new System.Windows.Forms.TreeView();
             this.SuspendLayout();
             // 
             // b_load_file
@@ -51,11 +52,19 @@
             this.gb_submodules.TabStop = false;
             this.gb_submodules.Text = "Submodules";
             // 
+            // tv_XML
+            // 
+            this.tv_XML.Location = new System.Drawing.Point(107, 203);
+            this.tv_XML.Name = "tv_XML";
+            this.tv_XML.Size = new System.Drawing.Size(262, 136);
+            this.tv_XML.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tv_XML);
             this.Controls.Add(this.gb_submodules);
             this.Controls.Add(this.b_load_file);
             this.Name = "Form1";
@@ -68,6 +77,7 @@
 
         private System.Windows.Forms.Button b_load_file;
         private System.Windows.Forms.GroupBox gb_submodules;
+        private System.Windows.Forms.TreeView tv_XML;
     }
 }
 

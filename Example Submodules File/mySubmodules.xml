@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Submodules>
+    <Submodule>
+        <URL>https://github.com/dambo1993/dmb_delay_systick</URL>
+        <Name>dmb_delay_systick</Name>
+        <Author>dambo</Author>
+        <Description>Simple Systick timer library</Description>
+    </Submodule>
+</Submodules>
