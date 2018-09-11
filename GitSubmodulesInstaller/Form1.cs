@@ -16,5 +16,10 @@ namespace GitSubmodulesInstaller
         {
             InitializeComponent();
         }
+
+        private void b_load_file_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

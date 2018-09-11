@@ -28,13 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.b_load_file = new System.Windows.Forms.Button();
+            this.gb_submodules = new System.Windows.Forms.GroupBox();
+            this.SuspendLayout();
+            // 
+            // b_load_file
+            // 
+            this.b_load_file.Location = new System.Drawing.Point(239, 12);
+            this.b_load_file.Name = "b_load_file";
+            this.b_load_file.Size = new System.Drawing.Size(130, 23);
+            this.b_load_file.TabIndex = 0;
+            this.b_load_file.Text = "Load submodules file";
+            this.b_load_file.UseVisualStyleBackColor = true;
+            this.b_load_file.Click += new System.EventHandler(this.b_load_file_Click);
+            // 
+            // gb_submodules
+            // 
+            this.gb_submodules.Location = new System.Drawing.Point(12, 12);
+            this.gb_submodules.Name = "gb_submodules";
+            this.gb_submodules.Size = new System.Drawing.Size(200, 100);
+            this.gb_submodules.TabIndex = 1;
+            this.gb_submodules.TabStop = false;
+            this.gb_submodules.Text = "Submodules";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.gb_submodules);
+            this.Controls.Add(this.b_load_file);
+            this.Name = "Form1";
+            this.Text = "GitSubmodulesInstaller";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button b_load_file;
+        private System.Windows.Forms.GroupBox gb_submodules;
     }
 }
 
