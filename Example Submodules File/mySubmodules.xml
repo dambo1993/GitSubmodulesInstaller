@@ -6,4 +6,10 @@
         <Author>dambo</Author>
         <Description>Simple Systick timer library</Description>
     </Submodule>
+	<Submodule>
+        <URL>https://github.com/dambo1993/AT_commands_parser</URL>
+        <Name>AT command parser</Name>
+        <Author>dambo</Author>
+        <Description>AT command parser</Description>
+    </Submodule>
 </Submodules>
